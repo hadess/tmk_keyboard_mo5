@@ -20,12 +20,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6060
-#define DEVICE_VER      0x0001
-#define MANUFACTURER    geekhack
-#define PRODUCT         GH60
-#define DESCRIPTION     t.m.k. keyboard firmware for GH60
+#define VENDOR_ID       0x069B         /* Thomson, Inc. */
+#define PRODUCT_ID      0x7779         /* "M" "O" */
+#define DEVICE_VER      0x0005         /* "5" */
+#define MANUFACTURER    Thomson
+#define PRODUCT         MO5
+#define DESCRIPTION     hadess keyboard firmware for MO5
 
 /* key matrix size */
 #define MATRIX_ROWS 5

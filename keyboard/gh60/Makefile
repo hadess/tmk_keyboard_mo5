@@ -39,7 +39,7 @@
 #----------------------------------------------------------------------------
 
 # Target file name (without extension).
-TARGET = gh60_lufa
+TARGET = mo5_lufa
 
 # Directory common source filess exist
 TMK_DIR = ../../tmk_core
