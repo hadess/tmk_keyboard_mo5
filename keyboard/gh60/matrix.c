@@ -92,9 +92,8 @@ matrix_row_t matrix_get_row(uint8_t row)
 }
 
 /* Column pin configuration
- * col: 0   1   2   3   4   5   6   7   8   9   10  11  12  13
- * pin: F0  F1  E6  C7  C6  B6  D4  B1  B0  B5  B4  D7  D6  B3  (Rev.A)
- * pin:                                 B7                      (Rev.B)
+ * row: A0  A1  A2  A3  A4  A5  A6  A7
+ * pin: D7  B4  B5  B6  F7  F6  F4  D4
  */
 static void  init_cols(void)
 {
@@ -130,8 +129,8 @@ static matrix_row_t read_cols(void)
 }
 
 /* Row pin configuration
- * row: 0   1   2   3   4
- * pin: D0  D1  D2  D3  D5
+ * col: B0  B1  B2  B3  B4  B5  B6  B7
+ * pin: B2  B7  D0  D1  D3  D2  C6  C7
  */
 static void unselect_rows(void)
 {
